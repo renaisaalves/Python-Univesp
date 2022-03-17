@@ -29,6 +29,14 @@ dividendo = int(input('Número: '))
 divisor = int(input(''))
 resto = dividendo % divisor 
 print(f'O resto da divisão {dividendo} por {divisor} é {resto}')
+
 # (e) 2 à 10ª potência.
+
+num = int(input('Número: '))
+potencia = int(input('Potência: '))
+produto = num ** potencia
+print(f'O produto de {num} à {potencia} potência é {produto}')
+
 # (f) O valor absoluto da distância entre a altura de Sara (54 polegadas) e a altura de Mark (57 polegadas).
+
 # (g) O menor preço entre os seguintes preços: R$ 34,99, R$ 29,95 e R$ 31,50.

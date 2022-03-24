@@ -24,3 +24,4 @@ print(resposta)
 for c in range(1, 4):
     var_flor.append(str(input(f'{c}ª Flor: ')))
 print(var_flor)
+

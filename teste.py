@@ -1,15 +1,10 @@
-print('Você tem que digitar a sua nacionalidade')  
-nacionalid=input("Coloque b (brasileiro) ou q (caso não seja)") 
-if (nacionalid== 'q'): 
-    print('Você não pode votar') 
-else: 
-    idade = eval(input("Entre com sua idade ")) 
-    if idade < 16: 
-        print("Você não é eleitor ") 
-    elif idade >= 18 and idade<= 65: 
-        print("Você é eleitor obrigatório") 
-    elif (idade >=16 and idade <18) or idade > 65: 
-        print("Você é eleitor facultativo") 
-    else: 
-        print("Erro") 
-print("Obrigada por usar nossos serviços")
+numero1 = eval(input("Digite o número 1: ")) 
+numero2 = eval(input("Digite o número 2: "))
+numero3 = eval(input("Digite o número 3: ")) 
+if (numero1 > numero2) and (numero1 > numero3) and (numero2 > numero3): 
+     print("O maior número é o primeiro: ",numero1) 
+if (numero2 > numero1) and (numero2 > numero3) and (numero3 > numero1): 
+     print("O maior número é o segundo: ",numero2) 
+if (numero3 > numero1) and (numero3 > numero2) and (numero1 > numero2): 
+     print("O maior número é o terceiro: ",numero3) 
+print("fim")  

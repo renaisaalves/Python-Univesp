@@ -44,6 +44,25 @@ def merge_sort(v, ini, fim):
         merge_sort(v, ini, meio)
         merge_sort(v, meio+1, fim)
         intercala(v, ini, meio, fim)
+merge_sort(exemplo)
 
 #QUICK SORT
+def quick_sort(v, ini, fim):
+    meio = (ini + fim) // 2
+    pivo = v[meio]
+    i = ini
+    j = fim
+    while i < j:
+        while v[i] < pivo:
+            i += 1
+        while v[j] > pivo:
+            j -= 1
+        if i <= j:
+            v[i], v[j] = v[j], v[i]
+        i += 1
+        j -= 1
+    if j > ini:
+        quick_sort(v, ini, j)
+    if i < fim:
+        quick_sort(v, i, fim)
 #HEAP SORT

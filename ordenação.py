@@ -1,4 +1,5 @@
-#BUBBLE SORT
+#BUBBLE SORT 
+
 def bubble_sort(v):
     for i in range(len(v)-1): 
 	    for j in range(len(v)-i-1): 
@@ -8,6 +9,7 @@ def bubble_sort(v):
 
 exemplo = [25, 57, 48, 37, 12, 92, 86, 33]
 bubble_sort(exemplo)
+#Não funcionou.
 
 #MERGE SORT
 #QUICK SORT

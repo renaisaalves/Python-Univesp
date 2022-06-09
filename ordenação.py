@@ -5,7 +5,6 @@ def bubble_sort(v):
 	        if(v[j] > v[j+1]):
                     v[j] = v[j+1]
                     v[j+1] = v[j]
-             
 
 exemplo = [25, 57, 48, 37, 12, 92, 86, 33]
 bubble_sort(exemplo)

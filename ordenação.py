@@ -13,8 +13,8 @@ bubble_sort(exemplo)
 
 def insertion_sort(v):
     for i in range(1, len(v)):
-        x = v[i]
-        j = i-1
+        x = v[i] #2º elemento / que está na posição 1
+        j = i-1 #1º elemento / que está na posição 0
         while j >= 0 and x < v[j]:
             v[j+1] = v[j]
             j -= 1

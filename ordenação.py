@@ -66,4 +66,5 @@ def quick_sort(v, ini, fim):
     if i < fim:
         quick_sort(v, i, fim)
 quick_sort(exemplo)
+
 #HEAP SORT

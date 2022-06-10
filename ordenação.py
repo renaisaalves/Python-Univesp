@@ -68,3 +68,4 @@ def quick_sort(v, ini, fim):
 quick_sort(exemplo)
 
 #HEAP SORT
+

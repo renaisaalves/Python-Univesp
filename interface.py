@@ -14,3 +14,4 @@ root.mainloop()
 #Dentro dessa biblioteca, existem várias classes com uma função específica, por exemplo:
 #Tk é a principal janela da uma aplicação, ou seja, ela é a janela que abriga todos os elementos. 
 #Label serve para exibir textos e bitmaps (imagens).
+#PhotoImage permite exibir imagens em formato PGM, PPM, GIF e PNG. 

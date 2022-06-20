@@ -13,4 +13,4 @@ root.mainloop()
 #tkinter é uma biblioteca GUI do Python que permite fazer Interface Gráfica. 
 #Dentro dessa biblioteca, existem várias classes com uma função específica, por exemplo:
 #Tk é a principal janela da uma aplicação, ou seja, ela é a janela que abriga todos os elementos. 
-#Label serve para inserir textos e bitmaps (imagens).
+#Label serve para exibir textos e bitmaps (imagens).

@@ -2,10 +2,10 @@
 
 from tkinter import Tk, Label, PhotoImage, TOP, BOTTOM
 
-root = Tk
+root = Tk()
 root.mainloop()
 '''
-root = Tk
+root = Tk()
 photo = PhotoImage(file='ratinho-flores.gif').subsample(5)
 image = Label(master=root, image=photo)
 image.pack(side=TOP)

@@ -1,12 +1,14 @@
+#Exemplo 2: digitar uma data específica e receber uma mensaagem de retorno.
+
 from tkinter import Tk, Button, Label, Entry
 from tkinter.messagebox import showinfo
 from time import strftime, strptime
 
 def compute():
     global entry
-date = entry.get()
-weekday = strftime('%A', strptime(date, '%b %d, %Y'))
-showinfo(message='{} was a {}'.format(date, weekday)) #isso aqui dá pra arrumar
+    date = entry.get()
+    weekday = strftime('%A', strptime(date, '%b %d, %Y'))
+    showinfo(message='{} was a {}'.format(date, weekday)) #isso aqui dá pra arrumar
 
 root = Tk()
 label = Label(root, text='Digite uma data: ')

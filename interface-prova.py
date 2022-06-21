@@ -3,7 +3,7 @@
 from tkinter import Tk, Button, Label, Entry, END 
 def clicked(): 
     global entry 
-    name = entry.get() 
+    name = entry.get() #O método get serve para retornar um texto
     print('Ola', name) 
     entry.delete(0, END) 
  

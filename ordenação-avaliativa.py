@@ -1,3 +1,14 @@
+lista = [25, 57, 48, 37, 12, 92, 86, 33]
+
+#BUBBLE SORT
+def busca(v, chave=0): 
+    for i in range(len(v)): 
+        if chave == v[i]: 
+            return i 
+    return -1 
+print(busca(lista))
+
+#QUICK SORT
 def ordena(v): 
     for i in range(1, len(v)): 
         chave = v[i] 
@@ -7,5 +18,5 @@ def ordena(v):
             j -= 1 
         v[j + 1] = chave
     return v
-lista = [25, 57, 48, 37, 12, 92, 86, 33]
 print(ordena(lista))
+

@@ -35,3 +35,4 @@ def ordena(v):
         elif x > ch: 
             h.append(x) 
     return ordena(l) + p + ordena(h)
+print(ordena(lista))

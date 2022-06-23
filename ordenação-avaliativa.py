@@ -81,3 +81,16 @@ def ordena1(v):
                 v[j], v[j + 1] = v[j + 1], v[j]
     return v
 print(ordena1(lista))
+
+#
+def busca(v, i=0, f=0, chave=0): 
+    if f < i: 
+        return -1 
+    m = (i + f) // 2 
+    if v[m] == chave: 
+        return m 
+    if chave < v[m]: 
+        return busca(v, i, m - 1, chave) 
+    else: 
+        return busca(v, m + 1, f, chave)
+print(busca(lista))

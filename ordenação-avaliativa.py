@@ -20,3 +20,18 @@ def ordena(v):
     return v
 print(ordena(lista))
 
+#
+def ordena(v): 
+    from random import randint 
+    if len(v) < 2: 
+        return v 
+    l, p, h = [], [], [] 
+    ch = v[randint(0, len(v) - 1)] 
+    for x in v: 
+        if x < ch: 
+            l.append(x) 
+        elif x == ch: 
+            p.append(x) 
+        elif x > ch: 
+            h.append(x) 
+    return ordena(l) + p + ordena(h)

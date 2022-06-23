@@ -6,5 +6,6 @@ def ordena(v):
             v[j + 1] = v[j] 
             j -= 1 
         v[j + 1] = chave
+    return v
 lista = [25, 57, 48, 37, 12, 92, 86, 33]
-ordena(lista)
+print(ordena(lista))

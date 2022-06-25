@@ -4,8 +4,8 @@ lista = [25, 57, 48, 37, 12, 92, 86, 33]
 def busca(v, chave=0): 
     for i in range(len(v)): 
         if chave == v[i]: 
-            return i 
-    return -1 
+            return i
+    return -1
 print(busca(lista))
 
 #QUICK SORT

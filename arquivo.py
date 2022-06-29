@@ -8,7 +8,7 @@ def readFile(filename):
     infile = open(filename, 'r')
     content = infile.read()
     infile.close()
-    wordList = content.split()
+    wordList = content.split() #split é uma função que vai separar cada caractere do arquivo
     print(wordList)
     return len(wordList), len(content)
 n_words, n_chars = readFile('testo.txt')

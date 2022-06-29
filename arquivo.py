@@ -11,4 +11,4 @@ def readFile(filename):
     wordList = content.split()
     print(wordList)
     return len(wordList), len(content)
-n_words, n_chars = readFile('teste.txt')
+n_words, n_chars = readFile('testo.txt')

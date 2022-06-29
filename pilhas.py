@@ -18,7 +18,6 @@ class Pilha():
 
 lista = [2, 4, 5, 8, 10]
 pilha = Pilha(lista)
-print(lista.empty())
 class Gato():
     def __init__(self, animal):
         self.nome = animal

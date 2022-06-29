@@ -13,5 +13,13 @@ class Pilha():
         if len(self.data) > 0:
             return self.data[-1]
         
-    def empty(self): #verifica se a pilha está vazia
+    def empty(self): #verifica se a pilha está vazio
         return len(self.data) > 0
+    
+class Gato():
+    def __init__(self, animal):
+        self.nome = animal
+        print(f'Seu gato se chama {self.nome}')
+        
+nome_gato = str(input('Digite o nome do seu gato: '))
+g1 = Gato(nome_gato)

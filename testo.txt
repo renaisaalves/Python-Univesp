@@ -1,0 +1,1 @@
+Esse é um arquivo de texto. Vamos implementar esse arquivo no Python para ver o que acontece.

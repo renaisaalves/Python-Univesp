@@ -1,2 +1,2 @@
-# Python-Univesp
-Projetos, rascunhos e exercícios na linguagem Python.
+# python-univesp
+ Aulas em Python pela UNIVESP.

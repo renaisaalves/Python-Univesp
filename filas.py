@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class Fila():
     def __init__(self):
         self.data = []
@@ -15,7 +14,7 @@ class Fila():
             return self.data[0]
         
     def empty(self):
-=======
+        pass
 class Fila():
     def __init__(self):
         self.data = []
@@ -32,5 +31,5 @@ class Fila():
             return self.data[0]
         
     def empty(self):
->>>>>>> 62b89ef61a69aa6939953720a89a55fdaf8ac070
+
         return not len(self.data) > 0

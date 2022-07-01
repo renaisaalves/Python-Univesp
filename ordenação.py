@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #BUBBLE SORT 
 
 def bubble_sort(v):
@@ -70,7 +69,6 @@ quick_sort(exemplo)
 
 #HEAP SORT
 
-=======
 #BUBBLE SORT 
 
 def bubble_sort(v):
@@ -141,5 +139,3 @@ def quick_sort(v, ini, fim):
 quick_sort(exemplo)
 
 #HEAP SORT
-
->>>>>>> 62b89ef61a69aa6939953720a89a55fdaf8ac070

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Traduza os comandos a seguir para expressões Booleanas em Python e avalie-as:
 print('=' * 50)
 print('(a) A soma de 2 e 2 é menor que 4.')
@@ -34,7 +33,7 @@ print('=' * 50)
 print('(g) O preço mais baixo dentre R$ 34,99, R$ 29,95 e R$ 31,50 é menor que R$ 30,00.')
 preco = [34.99, 29.95, 31.50]
 resposta = min(preco) < 30.00
-=======
+
 #Traduza os comandos a seguir para expressões Booleanas em Python e avalie-as:
 print('=' * 50)
 print('(a) A soma de 2 e 2 é menor que 4.')
@@ -70,5 +69,5 @@ print('=' * 50)
 print('(g) O preço mais baixo dentre R$ 34,99, R$ 29,95 e R$ 31,50 é menor que R$ 30,00.')
 preco = [34.99, 29.95, 31.50]
 resposta = min(preco) < 30.00
->>>>>>> 62b89ef61a69aa6939953720a89a55fdaf8ac070
+
 print(resposta, min(preco))

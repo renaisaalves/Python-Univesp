@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var_animal = ['cachorro', 'gato', 'pássaro']
 var_numero = [2, 4, 6, 8, 10]
 var_misto = ['pássaro', 6, '1.8', [2, 4]]
@@ -24,7 +23,7 @@ print(resposta)
 
 for c in range(1, 4):
     var_flor.append(str(input(f'{c}ª Flor: ')))
-=======
+
 var_animal = ['cachorro', 'gato', 'pássaro']
 var_numero = [2, 4, 6, 8, 10]
 var_misto = ['pássaro', 6, '1.8', [2, 4]]
@@ -50,5 +49,5 @@ print(resposta)
 
 for c in range(1, 4):
     var_flor.append(str(input(f'{c}ª Flor: ')))
->>>>>>> 62b89ef61a69aa6939953720a89a55fdaf8ac070
+    
 print(var_flor)

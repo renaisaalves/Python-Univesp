@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Retirado da prova Univesp
 
 from tkinter import Tk, Button, Label, Entry, END 
@@ -16,7 +15,7 @@ entry.grid(row=0, column=1)
 button = Button(root, text='OK', command=clicked) 
 button.grid(row=1, column=0, columnspan=2) #columnspan serve para alinhar um elemento no meio 
 root.mainloop() 
-=======
+
 #Retirado da prova Univesp
 
 from tkinter import Tk, Button, Label, Entry, END 
@@ -33,5 +32,4 @@ entry = Entry(root) #A classe Entry serve para digitar um texto
 entry.grid(row=0, column=1) 
 button = Button(root, text='OK', command=clicked) 
 button.grid(row=1, column=0, columnspan=2) #columnspan serve para alinhar um elemento no meio 
-root.mainloop() 
->>>>>>> 62b89ef61a69aa6939953720a89a55fdaf8ac070
+root.mainloop()

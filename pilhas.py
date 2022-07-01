@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 class Pilha():
     def __init__(self, pilha):
         self.data = pilha
@@ -26,7 +25,6 @@ class Gato():
         
 nome_gato = str(input('Digite o nome do seu gato: '))
 g1 = Gato(nome_gato)
-=======
 class Pilha():
     def __init__(self, pilha):
         self.data = pilha
@@ -54,4 +52,3 @@ class Gato():
         
 nome_gato = str(input('Digite o nome do seu gato: '))
 g1 = Gato(nome_gato)
->>>>>>> 62b89ef61a69aa6939953720a89a55fdaf8ac070

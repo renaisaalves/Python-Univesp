@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #CRIANDO UMA INTERFACE GRÁFICA (GUI) NO PYTHON
 
 from tkinter import Tk, Label, PhotoImage, TOP, BOTTOM
@@ -15,7 +14,7 @@ root.mainloop() #vai fazer funcionar
 #Dentro dessa biblioteca, existem várias classes com uma função específica, por exemplo:
 #Tk é a principal janela da uma aplicação, ou seja, ela é a janela que abriga todos os elementos. 
 #Label serve para exibir textos e bitmaps (imagens).
-=======
+
 #CRIANDO UMA INTERFACE GRÁFICA (GUI) NO PYTHON
 
 from tkinter import Tk, Label, PhotoImage, TOP, BOTTOM
@@ -32,5 +31,5 @@ root.mainloop() #vai fazer funcionar
 #Dentro dessa biblioteca, existem várias classes com uma função específica, por exemplo:
 #Tk é a principal janela da uma aplicação, ou seja, ela é a janela que abriga todos os elementos. 
 #Label serve para exibir textos e bitmaps (imagens).
->>>>>>> 62b89ef61a69aa6939953720a89a55fdaf8ac070
+
 #PhotoImage permite exibir imagens em formato PGM, PPM, GIF e PNG. 

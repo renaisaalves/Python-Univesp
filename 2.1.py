@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Escreva expressões algébricas Python correspondentes aos seguintes comandos:
 
 print('=' * 50)
@@ -55,7 +54,7 @@ print('=' * 50)
 print('O menor preço entre os seguintes preços: R$ 34,99, R$ 29,95 e R$ 31,50.')
 print()
 lista = [34.99, 29.95, 31.50]
-=======
+
 # Escreva expressões algébricas Python correspondentes aos seguintes comandos:
 
 print('=' * 50)
@@ -112,5 +111,5 @@ print('=' * 50)
 print('O menor preço entre os seguintes preços: R$ 34,99, R$ 29,95 e R$ 31,50.')
 print()
 lista = [34.99, 29.95, 31.50]
->>>>>>> 62b89ef61a69aa6939953720a89a55fdaf8ac070
+
 print(f'O menor produto é R$ {min(lista)}')

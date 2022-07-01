@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 lista = [25, 57, 48, 37, 12, 92, 86, 33]
 
 #BUBBLE SORT
@@ -95,7 +94,7 @@ def busca(v, i=0, f=0, chave=0):
     else: 
         return busca(v, m + 1, f, chave)
 print(busca(lista))
-=======
+
 lista = [25, 57, 48, 37, 12, 92, 86, 33]
 
 #BUBBLE SORT
@@ -192,4 +191,3 @@ def busca(v, i=0, f=0, chave=0):
     else: 
         return busca(v, m + 1, f, chave)
 print(busca(lista))
->>>>>>> 62b89ef61a69aa6939953720a89a55fdaf8ac070

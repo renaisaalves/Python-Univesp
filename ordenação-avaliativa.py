@@ -8,12 +8,12 @@ def busca(v, chave=0):
     return -1
 print(busca(lista))
 
-#
+#INSERTION SORT [25, 57, 48, 37, 12, 92, 86, 33]
 def ordena4(v): 
-    for i in range(1, len(v)): 
-        chave = v[i] 
-        j = i - 1 
-        while j >= 0 and v[j] > chave: 
+    for i in range(1, len(v)): #i vai percorrer do 1 ao 8 
+        chave = v[i] #v[i] é o mesmo que 57, pq é o objeto que está ocupando a posição 1 do vetor (25 ocupa o 0)
+        j = i - 1
+        while j >= 0 and v[j] > chave:
             v[j + 1] = v[j] 
             j -= 1 
         v[j + 1] = chave

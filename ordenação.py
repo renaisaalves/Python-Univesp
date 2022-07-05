@@ -1,5 +1,6 @@
-#BUBBLE SORT 
+exemplo = [25, 57, 48, 37, 12, 92, 86, 33]
 
+#BUBBLE SORT 
 def bubble_sort(v):
     for i in range(len(v)-1): 
 	    for j in range(len(v)-i-1): 
@@ -7,7 +8,7 @@ def bubble_sort(v):
                     v[j] = v[j+1]
                     v[j+1] = v[j]
 
-exemplo = [25, 57, 48, 37, 12, 92, 86, 33]
+
 bubble_sort(exemplo)
 #Não funcionou.
 
@@ -22,7 +23,6 @@ def insertion_sort(v):
 insertion_sort(exemplo)
 
 #MERGE SORT
-
 def intercala(v, ini, meio, fim):
     L = v[ini:meio+1]
     R = v[meio+1:fim+1]

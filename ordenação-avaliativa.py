@@ -1,6 +1,6 @@
 lista = [25, 57, 48, 37, 12, 92, 86, 33]
 
-#BUBBLE SORT
+#
 def busca(v, chave=0): 
     for i in range(len(v)): 
         if chave == v[i]: 
@@ -8,7 +8,7 @@ def busca(v, chave=0):
     return -1
 print(busca(lista))
 
-#QUICK SORT
+#
 def ordena4(v): 
     for i in range(1, len(v)): 
         chave = v[i] 
@@ -72,16 +72,15 @@ def ordena2(v):
         r = ordena2(v[meio:]))
 print(ordena2(lista))
 
-#
-def ordena1(v): 
-    n = len(v) 
+#BUBBLE SORT [25, 57, 48, 37, 12, 92, 86, 33]
+def ordena1(v): #A lista original vai entrar na função
+    n = len(v) #A quantidade de elementos que estão na função vai pra variável n (há 8 elementos na lista)
     for i in range(n): 
         for j in range(n - i - 1): 
             if v[j] > v[j + 1]: 
                 v[j], v[j + 1] = v[j + 1], v[j]
     return v
-print(ordena1(lista))
-
+print(ordena1(lista), 'Bubble Sort')
 #
 def busca(v, i=0, f=0, chave=0): 
     if f < i: 
